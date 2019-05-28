@@ -1,4 +1,4 @@
-package ru.mtsbank.gof.Abstract_Factory.guielemets.checkboxes;
+package ru.mtsbank.gof.сreational_patterns.Abstract_Factory.guielemets.checkboxes;
 
 public class MacCheckBox implements CheckBox {
     @Override
