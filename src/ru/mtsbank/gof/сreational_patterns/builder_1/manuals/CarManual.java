@@ -1,7 +1,10 @@
-package ru.mtsbank.gof.сreational_patterns.builder.manuals;
+package ru.mtsbank.gof.сreational_patterns.builder_1.manuals;
 
-import ru.mtsbank.gof.сreational_patterns.builder.componets.GPSNavigator;
-import ru.mtsbank.gof.сreational_patterns.builder.componets.Transmission;
+import ru.mtsbank.gof.сreational_patterns.builder_1.builders.Builder;
+import ru.mtsbank.gof.сreational_patterns.builder_1.builders.CarManualBulder;
+import ru.mtsbank.gof.сreational_patterns.builder_1.componets.GPSNavigator;
+import ru.mtsbank.gof.сreational_patterns.builder_1.componets.Transmission;
+import ru.mtsbank.gof.сreational_patterns.builder_2.Car;
 
 public class CarManual {
     private int door;
@@ -9,11 +12,11 @@ public class CarManual {
     private Transmission transmission;
     private GPSNavigator gpsNavigator;
 
-    public CarManual(int door, int seats, Transmission transmission, GPSNavigator gpsNavigator) {
-        this.door = door;
-        this.seats = seats;
-        this.transmission = transmission;
-        this.gpsNavigator = gpsNavigator;
+    public CarManual(CarManualBulder builder) {
+        this.door = builder.getDoor();
+        this.seats = builder.getSeats();
+        this.transmission = builder.getTransmission();
+        this.gpsNavigator = builder.getGpsNavigator();
     }
 
     public String printManual() {

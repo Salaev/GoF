@@ -1,8 +1,8 @@
-package ru.mtsbank.gof.сreational_patterns.builder.director;
+package ru.mtsbank.gof.сreational_patterns.builder_1.director;
 
-import ru.mtsbank.gof.сreational_patterns.builder.builders.Builder;
-import ru.mtsbank.gof.сreational_patterns.builder.componets.GPSNavigator;
-import ru.mtsbank.gof.сreational_patterns.builder.componets.Transmission;
+import ru.mtsbank.gof.сreational_patterns.builder_1.builders.Builder;
+import ru.mtsbank.gof.сreational_patterns.builder_1.componets.GPSNavigator;
+import ru.mtsbank.gof.сreational_patterns.builder_1.componets.Transmission;
 
 public class Director {
 

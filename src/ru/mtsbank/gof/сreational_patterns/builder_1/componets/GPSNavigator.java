@@ -1,4 +1,4 @@
-package ru.mtsbank.gof.сreational_patterns.builder.componets;
+package ru.mtsbank.gof.сreational_patterns.builder_1.componets;
 
 public class GPSNavigator {
 
