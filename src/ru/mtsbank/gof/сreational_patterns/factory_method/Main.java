@@ -1,8 +1,8 @@
-package ru.mtsbank.gof.сreational_patterns.Factory_Method;
+package ru.mtsbank.gof.сreational_patterns.factory_method;
 
-import ru.mtsbank.gof.сreational_patterns.Factory_Method.factory.ButtonFactory;
-import ru.mtsbank.gof.сreational_patterns.Factory_Method.factory.LinuxFactory;
-import ru.mtsbank.gof.сreational_patterns.Factory_Method.factory.MacFactory;
+import ru.mtsbank.gof.сreational_patterns.factory_method.factory.ButtonFactory;
+import ru.mtsbank.gof.сreational_patterns.factory_method.factory.LinuxFactory;
+import ru.mtsbank.gof.сreational_patterns.factory_method.factory.MacFactory;
 
 public class Main {
     private static ButtonFactory buttonFactory;

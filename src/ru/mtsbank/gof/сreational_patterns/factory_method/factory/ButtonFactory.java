@@ -1,6 +1,6 @@
-package ru.mtsbank.gof.сreational_patterns.Factory_Method.factory;
+package ru.mtsbank.gof.сreational_patterns.factory_method.factory;
 
-import ru.mtsbank.gof.сreational_patterns.Factory_Method.buttons.Button;
+import ru.mtsbank.gof.сreational_patterns.factory_method.buttons.Button;
 
 public abstract class ButtonFactory {
 

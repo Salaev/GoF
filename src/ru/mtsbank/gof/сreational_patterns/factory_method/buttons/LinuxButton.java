@@ -1,4 +1,4 @@
-package ru.mtsbank.gof.сreational_patterns.Factory_Method.buttons;
+package ru.mtsbank.gof.сreational_patterns.factory_method.buttons;
 
 public class LinuxButton implements Button{
     @Override

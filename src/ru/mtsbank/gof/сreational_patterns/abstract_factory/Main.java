@@ -1,9 +1,9 @@
-package ru.mtsbank.gof.сreational_patterns.Abstract_Factory;
+package ru.mtsbank.gof.сreational_patterns.abstract_factory;
 
-import ru.mtsbank.gof.сreational_patterns.Abstract_Factory.App.Application;
-import ru.mtsbank.gof.сreational_patterns.Abstract_Factory.factories.GUIFactory;
-import ru.mtsbank.gof.сreational_patterns.Abstract_Factory.factories.LinuxFactory;
-import ru.mtsbank.gof.сreational_patterns.Abstract_Factory.factories.MacFactory;
+import ru.mtsbank.gof.сreational_patterns.abstract_factory.App.Application;
+import ru.mtsbank.gof.сreational_patterns.abstract_factory.factories.GUIFactory;
+import ru.mtsbank.gof.сreational_patterns.abstract_factory.factories.LinuxFactory;
+import ru.mtsbank.gof.сreational_patterns.abstract_factory.factories.MacFactory;
 
 public class Main {
 
